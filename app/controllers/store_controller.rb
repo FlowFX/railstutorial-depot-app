@@ -1,4 +1,8 @@
 class StoreController < ApplicationController
+  include Counter
+  before_action :get_counter, only: [:index]
+  after_action  :increment_counter, only: [:index]
+
   def index
     @products = Product.order(:title)
   end

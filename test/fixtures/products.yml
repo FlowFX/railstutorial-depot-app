@@ -20,3 +20,11 @@ ruby:
     delivered fast, you should add Ruby to your toolbox.
   price:       49.50
   image_url:   ruby.png
+
+python:
+  title:       Learn Python The Hard Way
+  description: 
+    This simple book is meant to get you started in programming. The title says
+    it's the hard way to learn to write code but it's actually not.
+  price:       108.23
+  image_url:   python.png

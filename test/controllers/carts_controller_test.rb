@@ -47,6 +47,5 @@ class CartsControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to store_index_url
-    assert_equal 'Your cart is currently empty.', flash[:notice]
   end
 end
